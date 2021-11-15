@@ -1,7 +1,11 @@
-void mian(){
-  //Containner widget
-  //01 Box Constraint
-  //02 margin
-  //03 padding
+import 'package:flutter/material.dart';
 
+import 'app_Screen/first_scree.dart';
+void main(){
+
+  runApp(const MaterialApp(
+    title: "Exploring Flutter UI",
+    home: home(),
+  ));
 }
+
